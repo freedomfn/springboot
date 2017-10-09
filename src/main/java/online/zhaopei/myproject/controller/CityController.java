@@ -30,6 +30,7 @@ public class CityController {
 		return this.cityService.findByState("CA");
 	}
 	
+	
 	@RequestMapping("/user/getUsers")
 	public List<UserTest> getAllUsers() {
 		PageHelper.startPage(1, 3);
